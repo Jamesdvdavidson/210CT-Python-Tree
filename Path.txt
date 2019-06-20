@@ -1,0 +1,7 @@
+
+[3, 2, 1, 0, 7, 6, 8] Path for connecting 3 to 8
+[3, 2, 1, 6, 8] Path for connecting 3 to 8
+[3, 2, 1, 0, 7, 6, 8] Path for connecting 3 to 8
+[3, 2, 1, 0, 7, 6, 8] Path for connecting 3 to 8
+[3, 2, 1, 6, 8] Path for connecting 3 to 8
+[3, 2, 1, 6, 8] Path for connecting 3 to 8

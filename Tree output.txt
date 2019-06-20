@@ -1,0 +1,16 @@
+        if not (node.left and node.right is None):
+            if node.left is not None:
+                dot += gencode(node.left, thisseq, "L")
+            else:
+                seq += 1
+                dot += "node" + str(seq) + '[style=invis];'
+                dot += "node" + str(thisseq) + ' -> ' + "node" + str(seq) + '[style=invis];'
+
+            if node.right is not None:
+                dot += gencode(node.right, thisseq, "R")
+            else:
+                seq += 1
+                dot += "node" + str(seq) + '[style=invis];'
+                dot += "node" + str(thisseq) + ' -> ' + "node" + str(seq) + '[style=invis];'
+
+        return dot
